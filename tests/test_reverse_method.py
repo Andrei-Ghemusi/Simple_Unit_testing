@@ -1,4 +1,4 @@
-from application.reverse_method import UnitTestClass
+from application.methods_to_be_tested import UnitTestClass
 
 
 class TestReverse(UnitTestClass):

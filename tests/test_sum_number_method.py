@@ -9,5 +9,5 @@ class TestReverse(UnitTestClass):
     def teardown_method(self):
         print('Instructions executed at the end')
 
-    def test_square_digits_method(self):
-        assert self.change.square_digits(9119) == 811181
+    def test_sum_number_method(self):
+        assert self.change.sum_num(9) == 45
